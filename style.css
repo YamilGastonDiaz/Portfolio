@@ -23,11 +23,16 @@ nav a {
 }
 #about {
   margin: 10px;
+  text-align: center;
+}
+#icon{
+  padding-inline-start: 0px;
 }
 #icon li {
   list-style: none;
   display: inline-flex;
   margin: 5px;
+  padding: 0px;
 }
 img {
   border-radius: 25%;
