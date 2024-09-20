@@ -1,0 +1,95 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+#about {
+  margin: 10px;
+}
+#icon li {
+  list-style: none;
+  display: inline-flex;
+  margin: 5px;
+  
+}
+img {
+  border-radius: 25%;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 70vh;
+}
+#img {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+#texto {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  text-align: left;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+footer ul {
+  list-style-type: none;
+  padding: 5px;
+  display: inline-block;
+}
+footer ul li {
+  display: inline;
+  margin: 15px;
+}
+footer ul li a{
+  color: white;
+  font-size: 30px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.proyecto {
+    padding: 15px;
+    border-radius: 5px;
+    width: 35%;
+    box-shadow: 1px 2px 4px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
